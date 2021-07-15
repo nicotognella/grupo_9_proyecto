@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 10vw;
+    align-items: center;
+    background-color: #A7A8A6;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+
+}
+
+
+.titulo-pag {
+    text-align: center;
+    margin-top: 10vw;
+}
+
+.div-caja-formularios {
+    display: flex;
+    margin-top: 3vw;
+    align-content: center;
+    border: solid 1px black;
+
+    
+}
+
+.div-footer {
+    display:block;
+    position: relative;
+    bottom: 0px;
+    width: 100vw;
+    height: 5vw;
+    background-color: #A7A8A6;
+    text-align: center;
+}
+
+.logo-ayuda-contacto {
+    display:flex;
+    width: 100vw;
+    background-color: #A7A8A6;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.derechos {
+    text-align:center;
+    position: relative;
+    bottom:0px;
+    width: 100vw;
+    background-color: #7A7878;
+    margin: 0px;
+}
+
+.caja-izquierda {
+    display:flex;
+    width: 50vw;
+    border-right: solid 1px black;
+    justify-content: center;
+}
+
+.caja-derecha {
+    display:flex;
+    width: 18vw;
+    justify-content: center;
+}
+
+.ayuda-footer {
+    display:flex;
+    flex-direction: column;
+    /*border: solid 1px black;
+    */
+    padding-left: 150px;
+    padding-right:150px;
+    text-align: center;
+}
+
+.contacto-footer {
+    display: flex;
+    flex-direction: column;
+    /*border: solid 1px black;
+    */
+    margin-right: 50px;
+    padding-left: 200px;
+    padding-right:200px;
+    text-align: center;
+}
+
+.cuerpo-login {
+    margin-top: 12vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lista-footer {
+    list-style: none;
+}
+
+.p-puam {
+    margin: 0px;
+}

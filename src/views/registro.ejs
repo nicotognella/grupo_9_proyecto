@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="styleslogin.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-wid th, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title> Creá tu cuenta | PUAM</title>
+</head>
+
+<body>
+    <header>
+        <img src="Imagenes/Puam.gif" alt="logo PUAM" width="130px">
+    </header>
+
+    <div class="titulo-pag">
+        <h1>Registrarme</h1>
+    </div>
+
+    <div class="div-caja-formularios">
+
+        <span class="caja-izquierda">
+            <span class="datos-personales">
+                <p>Datos personales</p>
+            </span>
+
+            <form action="registro.html" method="POST">
+                <br>
+                <p>Nombre</p>
+                <input type="text" name="nombre">
+                <br>
+                <p>Apellido</p>
+                <input type="text" name="apellido">
+                <br>
+                <p>Fecha de nacimiento</p>
+                <input type="date" name="fecha-nacimiento">
+                <br>
+                <p>Tipo</p>
+                <span> <input type="search" name="tipo-documento"> </span>
+                <p>Documento</p>
+                <span> <input type="number" name="numero-documento"> </span>
+                <br>
+                <p>Género</p>
+                <input type="text" name="genero">
+
+            </form>
+        </span>
+
+        <span class="caja-derecha">
+            <span class="datos-cuenta">
+                <p>Datos de la cuenta</p>
+            </span>
+        </span>
+
+        <form action="registro.html" method="POST">
+            <br>
+            <p>Nombre de la cuenta</p>
+            <input type="text" name="nombre-cuenta">
+            <br>
+            <p>Correo electrónico</p>
+            <input type="email" name="mail">
+            <br>
+            <p>Confirmar correo electrónico</p>
+            <input type="email" name="confirmar-mail">
+            <br>
+            <p>Contraseña</p>
+            <input type="password" name="contraseña">
+            <br>
+            <p>Confirmar contraseña</p>
+            <input type="password" name="confirmar-contraseña">
+        </form>
+
+    </div>
+
+    <div class="botones-formularios">
+        <form action="registro.html" method="POST">
+            <input type="checkbox" name="noticias">
+            <br>
+            <input type="checkbox" name="terminos-y-condiciones">
+            <br>
+            <button type="submit">Crear mi cuenta</button>
+        </form>
+    </div>
+
+
+    <div class="div-footer">
+        <div class="logo-ayuda-contacto">
+            <div class="logo-footer"> <img src="Imagenes/Puam.gif" width="75px"> </div>
+
+            <div class="ayuda-footer">
+                <h4>Ayuda</h4>
+                <p>
+                    ayuda <br>
+                    ayuda <br>
+                    ayuda
+                </p>
+            </div>
+
+
+            <div class="contacto-footer">
+                <h4>Contacto</h4>
+                <p>
+                    contacto <br>
+                    contacto <br>
+                    contacto
+                </p>
+            </div>
+
+        </div>
+
+        <div class="derechos">
+            <p class="p-puam">© PUAM 2021</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
