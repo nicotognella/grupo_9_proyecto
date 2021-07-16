@@ -1,18 +1,10 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/styleLogin.css">
-    <meta name="viewport" content="width=device-wid th, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title> Creá tu cuenta | PUAM</title>
-</head>
-
+<!-- Include Head -->
+<%- include('partials/head', {title: 'Inicio'}) %>
+<!-- Include Head -->
 <body>
     <header>
-        <img src="./images/Puam.jpg" alt="logo PUAM" width="130px">
+        <img src="./images/Puam.gif" alt="logo PUAM" width="100px">
     </header>
 
     <div class="titulo-pag">
@@ -84,37 +76,9 @@
         </form>
     </div>
 
-
-    <div class="div-footer">
-        <div class="logo-ayuda-contacto">
-            <div class="logo-footer"> <img src="./images/Puam.jpg" width="75px"> </div>
-
-            <div class="ayuda-footer">
-                <h4>Ayuda</h4>
-                <p>
-                    ayuda <br>
-                    ayuda <br>
-                    ayuda
-                </p>
-            </div>
-
-
-            <div class="contacto-footer">
-                <h4>Contacto</h4>
-                <p>
-                    contacto <br>
-                    contacto <br>
-                    contacto
-                </p>
-            </div>
-
-        </div>
-
-        <div class="derechos">
-            <p class="p-puam">© PUAM 2021</p>
-        </div>
-
-    </div>
+<!-- footer -->
+<%- include('partials/footer') %>
+<!-- /footer -->    
 
 </body>
 
