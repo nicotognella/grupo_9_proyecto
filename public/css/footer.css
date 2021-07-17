@@ -1,19 +1,6 @@
-* {
-    box-sizing: border-box;
-    scrollbar-color: transparent transparent;
 
-}
 
-body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 10 auto;
-    padding: 0 ;
-    font-family: 'Lato', sans-serif;
-}
-
-footer {
+.div-footer {
     display:block;
     position: relative;
     bottom: 0px;
@@ -21,26 +8,27 @@ footer {
     height: 5vw;
     background-color: #A7A8A6;
     text-align: center;
-}
-
-.logo-ayuda-contacto {
+  }
+  
+  .logo-ayuda-contacto {
     display:flex;
     width: 100vw;
-    background-color: #A7A8A6;
+    background-color: #FFFDD0;
     justify-content: space-between;
     margin: 0px;
-}
-
-.derechos {
+  }
+  
+  .derechos {
     text-align:center;
     position: relative;
     bottom:0px;
     width: 100vw;
     background-color: #7A7878;
     margin: 0px;
-}
-
-.ayuda-footer {
+  }
+  
+  
+  .ayuda-footer {
     display:flex;
     flex-direction: column;
     /*border: solid 1px black;
@@ -48,9 +36,9 @@ footer {
     padding-left: 150px;
     padding-right:150px;
     text-align: center;
-}
-
-.contacto-footer {
+  }
+  
+  .contacto-footer {
     display: flex;
     flex-direction: column;
     /*border: solid 1px black;
@@ -59,14 +47,9 @@ footer {
     padding-left: 200px;
     padding-right:200px;
     text-align: center;
-}
-
-.lista-footer {
-    list-style: none;
-}
-
-.imgslide   {
-    display: flex;
-    flex-direction: column;
-}
-
+  }
+  
+  .p-puam {
+    margin: 0px;
+    
+  }

@@ -1,0 +1,81 @@
+/*Header*/
+
+.main-header {
+    display: flex;
+    margin: 0px;
+    width: fit-content;
+    flex-direction: row; 
+    background-color: #FFFDD0;
+    justify-content: center;
+    margin: 0px;
+    width: 100vw;
+    padding: 0px;
+}
+
+.main-header-top-bar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.menubar {
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-grow: 0.5;
+}
+
+.searchbar {display: flex;
+    align-items: center;
+    flex-grow: 0.5;}
+
+.search {border: none;
+border-radius: 15px;}
+
+
+.copyheader {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.site ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    padding: 10px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.site a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.first-nav-bar,
+.second-nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/*/Header*/

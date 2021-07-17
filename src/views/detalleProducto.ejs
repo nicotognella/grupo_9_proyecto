@@ -2,34 +2,16 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-   
-    <meta name="viewport" content="width=device-wid th, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Include Head -->
+    <%- include('partials/head', {title: 'Inicio'}) %>
     <link rel="stylesheet" href="./css/styleDetalleProducto.css">
     <title> Iniciá sesión | PUAM</title>
 </head>
 
 <body>
-    <header>
-    <div class="temporada-invierno">
-        <h2>temporada de invierno</h2>
-    </div>
-    
-        <img src="./images/Puam.jpg" alt="logo PUAM" width="130px">
-
-        <div class="logo-barra-busqueda">
-         
-            <form action="home.html" method="GET">
-                <p>
-                    <input type="search" name="busqueda">
-                    <button type="submit">Buscar</button>
-                </p>
-            </form>
-        </div>
-
-    </header>
+    <!-- header -->
+<%- include('partials/header') %>
+<!-- /header -->
 
     <div class="producto">
         <h1>WOOL RUG | LULE - RAYAS CRUDO & GRIS</h1>

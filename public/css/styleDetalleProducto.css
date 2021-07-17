@@ -23,63 +23,6 @@ header {
 }
 
 
-.div-footer {
-  display:block;
-  position: relative;
-  bottom: 0px;
-  width: 100vw;
-  height: 5vw;
-  background-color: #A7A8A6;
-  text-align: center;
-}
-
-.logo-ayuda-contacto {
-  display:flex;
-  width: 100vw;
-  background-color: #A7A8A6;
-  justify-content: space-between;
-  margin: 0px;
-}
-
-.derechos {
-  text-align:center;
-  position: relative;
-  bottom:0px;
-  width: 100vw;
-  background-color: #7A7878;
-  margin: 0px;
-}
-
-
-
-
-.ayuda-footer {
-  display:flex;
-  flex-direction: column;
-  /*border: solid 1px black;
-  */
-  padding-left: 150px;
-  padding-right:150px;
-  text-align: center;
-}
-
-.contacto-footer {
-  display: flex;
-  flex-direction: column;
-  /*border: solid 1px black;
-  */
-  margin-right: 50px;
-  padding-left: 200px;
-  padding-right:200px;
-  text-align: center;
-}
-
-
-
-.p-puam {
-  margin: 0px;
-  
-}
 
 .relacionados{
   text-align: center;
@@ -128,3 +71,86 @@ header {
   text-align:center;
   
 }
+
+/*Header*/
+
+.main-header {
+  display: flex;
+  margin: 0px;
+  width: fit-content;
+  flex-direction: row; 
+  background-color: #FFFDD0;
+  justify-content: center;
+  margin: 0px;
+  width: 100vw;
+  padding: 0px;
+}
+
+.main-header-top-bar {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.menubar {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 0.5;
+}
+
+.searchbar {display: flex;
+  align-items: center;
+  flex-grow: 0.5;}
+
+.search {border: none;
+border-radius: 15px;}
+
+
+.copyheader {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.site ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  padding: 10px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+
+.site a {
+  padding: 5px;
+  text-decoration: none;
+  color: #222222;
+  display: inline-block;
+  padding: 5px 0;
+  font-size: 17px;
+}
+
+.first-nav-bar,
+.second-nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/*/Header*/
