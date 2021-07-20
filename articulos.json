@@ -1,0 +1,92 @@
+{
+    "item 1": {
+        "id": "aaaaaa000001",
+        "nombre_item": "CUSHIONS NATURAL - FRINGES",
+        "descripcion": "",
+        "imagen": "<img src='/images/CUSHIONS  NATURAL - FRINGES.jpg'>",
+        "categoria": "Cushions",
+        "color": "",
+        "precio": ""
+    },
+    "item 2": {
+        "id": "aaaaaa000002",
+        "nombre_item": "LLAMA CARDADA THROW PONCHO - CRUDO",
+        "descripcion": "",
+        "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - CRUDO.jpg'>",
+        "categoria": "Ponchos",
+        "color": "",
+        "precio": ""
+    },
+    "item 3": {
+        "id": "aaaaaa000003",
+        "nombre_item": "LLAMA CARDADA THROW PONCHO - NATURAL",
+        "descripcion": "",
+        "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - NATURAL.jpg'>",
+        "categoria": "Ponchos",
+        "color": "",
+        "precio": ""
+    },
+    "item 4": {
+        "id": "aaaaaa000004",
+        "nombre_item": "LLAMA CARDADA THROW PONCHO - TIERRA",
+        "descripcion": "",
+        "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - TIERRA.jpg'>",
+        "categoria": "Ponchos",
+        "color": "",
+        "precio": ""
+    },
+    "item 5": {
+        "id": "aaaaaa000005",
+        "nombre_item": "LLAMA CARDADA THROW PONCHO - CRUDO & GRIS",
+        "descripcion": "",
+        "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - CRUDO & GRIS.jpg'>",
+        "categoria": "Ponchos",
+        "color": "",
+        "precio": ""
+    },
+    "item '6": {
+        "id": "aaaaaa000006",
+        "nombre_item": "Manta",
+        "descripcion": "",
+        "imagen": "<img src='/images/manta 2.jpg'>",
+        "categoria": "Mantas",
+        "color": "",
+        "precio": ""
+    },
+    "item 7": {
+        "id": "aaaaaa000007",
+        "nombre_item": "Manta",
+        "descripcion": "",
+        "imagen": "<img src='/images/manta 3.jpg'>",
+        "categoria": "Mantas",
+        "color": "",
+        "precio": ""
+    },
+    "item 8": {
+        "id": "aaaaaa000008",
+        "nombre_item": "Manta",
+        "descripcion": "",
+        "imagen": "<img src='/images/manta 4.jpg'>",
+        "categoria": "Mantas",
+        "color": "",
+        "precio": ""
+    },
+    "item 9": {
+        "id": "aaaaaa000009",
+        "nombre_item": "Manta",
+        "descripcion": "",
+        "imagen": "<img src='/images/manta 5.jpg'>",
+        "categoria": "Mantas",
+        "color": "",
+        "precio": ""
+    },
+    "item 10": {
+        "id": "aaaaaa000010",
+        "nombre_item": "Manta OMBU",
+        "descripcion": "",
+        "imagen": "<img src='/images/OVERSIZED THROW - OMBU.jpg'>",
+        "categoria": "Mantas",
+        "color": "",
+        "precio": ""
+    }
+}
