@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href= "css/styleProductCart.css">
-
-    <title>ProductCart</title>
+<!-- Include Head -->
+<%- include('partials/head', {title: 'Inicio'}) %>
+<link rel="stylesheet" href= "css/styleProductCart.css">
+<title>ProductCart</title>
 </head>
-<header class=header> 
-    <p>Envío Gratis a todo el país!!!!!</p>
-    <img src="/images/logo.png" width= 300px alt="Logo de Puam"> 
-</header>
+
+<!-- header -->
+<%- include('partials/header') %>
+<!-- /header -->
+
 <div class="cartProduct">
     <ul class="cartProduct">
         <li>Productos</li>
@@ -24,34 +23,7 @@
 <body>
 
 </body>
-<div class="div-footer">
-    <div class="logo-ayuda-contacto">
-        <div class="logo-footer"> <img src="./images/logo.png" width="75px"> </div>
-
-        <div class="ayuda-footer">
-            <h4>Ayuda</h4>
-            <p>
-                ayuda <br>
-                ayuda <br>
-                ayuda
-            </p>
-        </div>
-
-
-        <div class="contacto-footer">
-            <h4>Contacto</h4>
-            <p>
-                contacto <br>
-                contacto <br>
-                contacto
-            </p>
-        </div>
-
-    </div>
-
-    <div class="derechos">
-        <p class="p-puam">© PUAM 2021</p>
-    </div>
-
-</div>
+<!-- footer -->
+<%- include('partials/footer') %>
+<!-- /footer -->
 </html>
