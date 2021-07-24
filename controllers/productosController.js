@@ -4,4 +4,4 @@ let productosController = {
 
 
 
-module.exports(productosController);
+module.exports = productosController;
