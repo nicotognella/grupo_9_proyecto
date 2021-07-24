@@ -1,7 +1,4 @@
-let productosController = {
-
-};
-
+let productosController = {};
 
 
 module.exports = productosController;
