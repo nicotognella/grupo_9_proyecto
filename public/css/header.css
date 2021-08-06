@@ -32,7 +32,8 @@
     flex-grow: 0.5;}
 
 .search {border: none;
-border-radius: 15px;}
+border-radius: 15px;
+font-size: 15;}
 
 
 .copyheader {
