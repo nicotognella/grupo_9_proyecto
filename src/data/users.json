@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "first_name": "Della",
+        "last_name": "Enser",
+        "user_name": "user",
+        "email": "denser0@msu.edu",
+        "password": "3sPyoJxt2",
+        "image": "user_1.jpg"
+    },
+    {
+        "id": 2,
+        "first_name": "Hayes",
+        "last_name": "Marchbank",
+        "user_name": "user",
+        "email": "hmarchbank1@theguardian.com",
+        "password": "njXz1R0l5",
+        "image": "user_2.jpg"
+    },
+    {
+        "id": 3,
+        "first_name": "Maudie",
+        "last_name": "Peterson",
+        "user_name": "user",
+        "email": "mpeterson2@economist.com",
+        "password": "91jPX9",
+        "image": "user_3.jpg"
+    },
+    {
+        "id": 4,
+        "first_name": "Dallon",
+        "last_name": "Philpot",
+        "user_name": "user",
+        "email": "dphilpot3@printfriendly.com",
+        "password": "TjCEi92",
+        "image": "user_4.jpg"
+    },
+    {
+        "id": 5,
+        "first_name": "Damian",
+        "last_name": "Gendricke",
+        "user_name": "user",
+        "email": "dgendricke4@discovery.com",
+        "password": "xGz0wUFZ",
+        "image": "user_5.jpg"
+    },
+    {
+        "id": 6,
+        "first_name": "Alexandr",
+        "last_name": "Tacey",
+        "user_name": "user",
+        "email": "atacey5@nbcnews.com",
+        "password": "MIb3KIrTFFxV",
+        "image": "user_6.jpg"
+    },
+    {
+        "id": 7,
+        "first_name": "Madge",
+        "last_name": "Cornewall",
+        "user_name": "user",
+        "email": "mcornewall6@usnews.com",
+        "password": "OmxQAuS45zxI",
+        "image": "user_7.jpg"
+    },
+    {
+        "id": 8,
+        "first_name": "Alisun",
+        "last_name": "Kinane",
+        "user_name": "user",
+        "email": "akinane7@wikipedia.org",
+        "password": "BZkDoEh3s",
+        "image": "user_8.jpg"
+    },
+    {
+        "id": 9,
+        "first_name": "Ruprecht",
+        "last_name": "Torry",
+        "user_name": "user",
+        "email": "rtorry8@comcast.net",
+        "password": "BvkWO2lpn",
+        "image": "user_9.jpg"
+    },
+    {
+        "id": 10,
+        "first_name": "Garfield",
+        "last_name": "Grimditch",
+        "user_name": "user",
+        "email": "ggrimditch9@multiply.com",
+        "password": "3rUqNydJ",
+        "image": "user_10.jpg"
+    }
+]

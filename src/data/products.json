@@ -1,6 +1,6 @@
-{
-    "item 1": {
-        "id": "aaaaaa000001",
+[
+   {
+        "id": 1,
         "nombre_item": "CUSHIONS NATURAL - FRINGES",
         "descripcion": "",
         "imagen": "<img src='/images/CUSHIONS  NATURAL - FRINGES.jpg'>",
@@ -8,8 +8,8 @@
         "color": "",
         "precio": ""
     },
-    "item 2": {
-        "id": "aaaaaa000002",
+    {
+        "id": 2,
         "nombre_item": "LLAMA CARDADA THROW PONCHO - CRUDO",
         "descripcion": "",
         "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - CRUDO.jpg'>",
@@ -17,8 +17,8 @@
         "color": "",
         "precio": ""
     },
-    "item 3": {
-        "id": "aaaaaa000003",
+    {
+        "id": 3,
         "nombre_item": "LLAMA CARDADA THROW PONCHO - NATURAL",
         "descripcion": "",
         "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - NATURAL.jpg'>",
@@ -26,8 +26,8 @@
         "color": "",
         "precio": ""
     },
-    "item 4": {
-        "id": "aaaaaa000004",
+    {
+        "id": 4,
         "nombre_item": "LLAMA CARDADA THROW PONCHO - TIERRA",
         "descripcion": "",
         "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - TIERRA.jpg'>",
@@ -35,8 +35,8 @@
         "color": "",
         "precio": ""
     },
-    "item 5": {
-        "id": "aaaaaa000005",
+    {
+        "id": 5,
         "nombre_item": "LLAMA CARDADA THROW PONCHO - CRUDO & GRIS",
         "descripcion": "",
         "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - CRUDO & GRIS.jpg'>",
@@ -44,8 +44,8 @@
         "color": "",
         "precio": ""
     },
-    "item '6": {
-        "id": "aaaaaa000006",
+    {
+        "id": 6,
         "nombre_item": "Manta",
         "descripcion": "",
         "imagen": "<img src='/images/manta 2.jpg'>",
@@ -53,8 +53,8 @@
         "color": "",
         "precio": ""
     },
-    "item 7": {
-        "id": "aaaaaa000007",
+    {
+        "id": 7,
         "nombre_item": "Manta",
         "descripcion": "",
         "imagen": "<img src='/images/manta 3.jpg'>",
@@ -62,8 +62,8 @@
         "color": "",
         "precio": ""
     },
-    "item 8": {
-        "id": "aaaaaa000008",
+    {
+        "id": 8,
         "nombre_item": "Manta",
         "descripcion": "",
         "imagen": "<img src='/images/manta 4.jpg'>",
@@ -71,8 +71,8 @@
         "color": "",
         "precio": ""
     },
-    "item 9": {
-        "id": "aaaaaa000009",
+    {
+        "id": 9,
         "nombre_item": "Manta",
         "descripcion": "",
         "imagen": "<img src='/images/manta 5.jpg'>",
@@ -80,8 +80,8 @@
         "color": "",
         "precio": ""
     },
-    "item 10": {
-        "id": "aaaaaa000010",
+    {
+        "id": 10,
         "nombre_item": "Manta OMBU",
         "descripcion": "",
         "imagen": "<img src='/images/OVERSIZED THROW - OMBU.jpg'>",
@@ -89,4 +89,4 @@
         "color": "",
         "precio": ""
     }
-}
+]
