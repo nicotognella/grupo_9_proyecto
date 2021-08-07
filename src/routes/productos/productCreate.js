@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
-/* Detalle del producto */
+/* createProduct */
 router.get('/', function(req, res, next) {
-  res.render('detalleProducto', { title: 'Express' });
+  res.render('productCreate', { title: 'productCreate' });
 });
+
 
 module.exports = router;

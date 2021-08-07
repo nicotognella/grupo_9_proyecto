@@ -12,17 +12,101 @@
 <%- include('partials/header') %>
 <!-- /header -->
 
-<div class="cartProduct">
-    <ul class="cartProduct">
-        <li>Productos</li>
-        <li>Precio</li>
-        <li>Cantidad</li>
-        <li>Total</li>
-    </ul>
-</div>
-<body>
+<main>
 
-</body>
+    <div class="contenedor">
+        
+        <table>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info">
+                        <img class="img-producto" src=".\images\WOOL RUG  DIAGUITA.jpg">
+                        <div>
+                            <p>Wool Rug - Diaguita</p>
+                            <small>Precio: $$$$</small>
+                            <br>
+                            <small>Descuento: %</small>
+                            <br>
+                            <a href="">Eliminar del carrito</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$$$$</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info">
+                        <img class="img-producto" src=".\images\LLAMA THROW  PONCHO - TIERRA.jpg">
+                        <div>
+                            <p>Llama Throw, poncho - Tierra</p>
+                            <small>Precio: $$$$</small>
+                            <br>
+                            <small>Descuento: %</small>
+                            <br>
+                            <a href="">Eliminar del carrito</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$$$$</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="info">
+                        <img class="img-producto" src="/images/WOOL RUG  LULE - RAYAS CRUDO & GRIS.jpg">
+                        <div>
+                            <p>Wool Rug, Lule - crudo & gris</p>
+                            <small>Precio: $$$$</small>
+                            <br>
+                            <small>Descuento: %</small>
+                            <br>
+                            <a href="">Eliminar del carrito</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$$$$</td>
+            </tr>
+        </table>
+
+        <div class="totales">
+
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$$$$</td>
+                </tr>
+                <tr>
+                    <td>Descuentos</td>
+                    <td>$$$$</td>
+                </tr>
+                <tr>
+                    <td>Impuestos</td>
+                    <td>$$$$</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$$$$</td>
+                </tr>
+            </table>
+
+        
+        <div class="bpagar">
+        <button class="boton">Finalizar</button>
+        </div>
+    </div>
+
+    </div>
+  
+
+
+</main>
 <!-- footer -->
 <%- include('partials/footer') %>
 <!-- /footer -->

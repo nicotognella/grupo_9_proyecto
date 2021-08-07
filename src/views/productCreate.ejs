@@ -1,57 +1,68 @@
 <!DOCTYPE html>
-<html lang="es">
-<!-- Include Head -->
-<%- include('partials/head', {title: 'Inicio'}) %>
-<link rel="stylesheet" href= "css/app.css">
-
+<html lang="en">
+    <%- include('partials/head', {title: 'Inicio'}) %>
+    <link rel="stylesheet" href="./css/styleCreate.css">
+    <title>productCreate</title>
 <body>
-	
-	<div class="container products-wrapper">
-		<div class="row">
-			<div class="col-12">
-				<h2 class="products-title">Formulario de creación de productos</h2>
-			</div>
-		</div>
-		<div class="col-12">
-			<form action="/products" method="POST" >
-				<div class="row product-detail">
-				
-					<div class="col-12 col-md-6">
-						<label for="name" class="form-label">Nombre del producto:</label>
-						<input type="text" id="name" name="name" placeholder="Ej: Zapatillas Reebok" class="form-input">
-					</div>
-					<div class="col-12 col-md-6">
-						<label for="price" class="form-label">Precio del producto:</label>
-						<input type="text" id="price" name="price" placeholder="Ej: 5678" class="form-input">
-					</div>
-					<div class="col-12 col-md-6">
-						<label for="discount" class="form-label">Descuento:</label>
-						<input type="text" id="discount" name="discount" placeholder="Ej: 15" class="form-input">
-					</div>
-					<div class="col-12 col-md-6">
-						<label for="category" class="form-label">Categoría:</label>
-						<select name="category" id="category" class="form-input">
-							<option value="">Elegí</option>
-							<option value="in-sale">En oferta</option>
-							<option value="visited">Últimos agregados</option>
-						</select>
-					</div>
-					<div class="col-12">
-						<label for="description" class="form-label">Descipción:</label>
-						<textarea name="description" id="description" class="form-input"></textarea>
-					</div>
-					<div class="col-12">
-						<button type="submit" class="buy-now-button">Guardar producto</button>
-					</div>
-				</div>
-			</form>
-		</div>
+<!-- header -->
+<%- include('partials/header') %>
+<!-- /header -->
+    <main>
+        <div class="card-create-prod">   
+            <form action="/products/create" method="POST" enctype="multipart/form-data">  
+                <div class="msg-create-prod">
+                    <h4>Formulario de creacion de Productos</h4>
+                </div>
+                    <div class="container-create-prod">
+                        <form action="" class="inputform" method="POST">
+                            <label for="title">Nombre del producto</label>
+                            <input type="text" name="title" placeholder="Ingresar nombre" required>
 
-	</div>
-	<!-- /todos los productos -->
+                            <label for="medidas">Medidas</Mabel>
+                            <input type="number" name="medidas" placeholder="Largo" required> x <input type="number" name="medidas" placeholder="Ancho" required> cm
 
-	<!-- footer -->
-	<%- include('partials/footer') %>
-	<!-- /footer -->
-</body>	
+                            <br>
+                            <label for="category">Color</label>
+                            <br>
+                            <select name="gender">
+                                <option value="" selected disabled hidden>Elegir...</option>
+                                <option value="natural">Natural</option>
+                                <option value="crudo">Crudo</option>
+                                <option value="crudo&gris">Crudo & gris</option>
+                                <option value="tierra">Tierra</option>
+                                <option value="piedra">Piedra</option>
+                                
+                            </select>
+                            <br>
+
+                            <label for="descripcion">Descripcion</label>
+                            <textarea type= "text" name="descripcion" placeholder="Escribir descripcion" required></textarea>
+                            <br>
+                            <label for="descuento">Descuento</label>
+                            <br>
+                            <input type="number" name="descuento" placeholder="Descuento" required> %
+                            <br>
+                            <label for="image">Imagen</label>
+                            <br>
+                            <input type="file" name="image" accept=".jpg, .png">
+                            <br>
+                          
+                            <br>
+                            <label for="price">Precio</label>
+                            <br>
+                            <input name="price" type="number" min="0.00" max="10000.00" step="0.01" required>
+                            <br>
+                        </form>
+                        <div class="container-button">
+                            <button type="submit">Crear</button>
+                        </div>
+                    </div>                
+            </form>
+        </div>
+
+    </main>
+<!-- footer -->
+<%- include('partials/footer') %>
+<!-- /footer -->
+</body>
 </html>
