@@ -4,13 +4,13 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var homeRouter = require('./routes/home');
-var registroRouter = require('./routes/registro');
-var loginRouter = require('./routes/login');
-var usersRouter = require('./routes/users');
-var productDetailRouter = require('./routes/productos/productDetail');
-var productCartRouter = require('./routes/productos/productCart');
-var productCreateRouter = require('./routes/productos/productCreate');
+var homeRouter = require('./src/routes/home');
+var registroRouter = require('./src/routes/registro');
+var loginRouter = require('./src/routes/login');
+var usersRouter = require('./src/routes/users');
+var productDetailRouter = require('./src/routes/productos/productDetail');
+var productCartRouter = require('./src/routes/productos/productCart');
+var productCreateRouter = require('./src/routes/productos/productCreate');
 
 var app = express();
 
