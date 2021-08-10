@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon bin/www",
     "git": "git add . && git commit -m ",
-    "postgit": "git push --all"    
+    "postgit": "git push --all"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -19,7 +19,6 @@
   },
   "description": "GRUPO 9",
   "main": "index.js",
-
   "devDependencies": {},
   "repository": {
     "type": "git",
