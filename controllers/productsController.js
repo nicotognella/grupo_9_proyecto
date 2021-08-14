@@ -14,6 +14,14 @@ let productsController = {
     crear: function (req, res) {
         const rutaVistaCreate = path.resolve ('./views/productCreate')
         res.render (rutaVistaCreate)
+    },
+    editar: function (req, res) {
+        const rutaVistaEdit = path.resolve ('./views/productEdit')
+        res.render (rutaVistaEdit)
+    },
+    index: function (req, res) {
+        const rutaVistaIndex = path.resolve ('./views/productIndex')
+        res.render (rutaVistaIndex)
     }
     
 };
