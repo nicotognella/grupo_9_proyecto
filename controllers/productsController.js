@@ -5,7 +5,7 @@ const path = require('path');
 let productsController = {
     detalle: function (req, res) {
         const rutaVistaDetail = path.resolve ('./views/productDetail')
-        res.render (rutaVistaDetail)
+       return res.render (rutaVistaDetail)
     },
     carrito: function (req, res) {
         const rutaVistaCart = path.resolve ('./views/productCart')
