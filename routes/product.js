@@ -14,7 +14,8 @@ router.get ('/',productsController.index)
 
 //Editar
 
-router.get ('/:id/edit',productsController.editar)
+router.get ('/edit',productsController.editar)
+router.get ('/edit/:id',productsController.editar)
 
 //Carrito de compras
 
@@ -26,5 +27,10 @@ router.get ('/create',productsController.crear)
 
 //Detalle producto
 
-router.get ('/:id/detail',productsController.detalle)
+router.get ('/detail',productsController.detalle)
+router.get ('/detail/:id',productsController.detalle)
+
+
+
+//Export
 module.exports = router;
