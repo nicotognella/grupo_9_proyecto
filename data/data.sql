@@ -1,1 +1,1 @@
-SELECT * FROM productos.tabla_colores;
+SELECT * FROM productos.tabla_productos;
