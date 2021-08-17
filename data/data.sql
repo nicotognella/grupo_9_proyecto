@@ -1,1 +1,1 @@
-SELECT * FROM productos.tabla_productos;
+SELECT * FROM usuarios.tabla_metodos_pago;
