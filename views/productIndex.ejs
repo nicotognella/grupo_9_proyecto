@@ -19,14 +19,13 @@
 <!-- forEach va a recorrer la array de la base de datos products.json y me va a devolver todos los elementos encontrados-->
 <% products.forEach(element => { %>
 <br>
-<a href="/products/detail/<%= element.id%>" method="GET"></a>
     <div class="producto">
         <h1><%= element.nombre_item%></h1>
     </div>
     
     
     <div class="precio">
-        <h1><%= element.precio%></h1>
+        <h1>$<%= element.precio%></h1>
     </div> 
     
     <div class="articulo-principal">
