@@ -24,7 +24,7 @@ let productsController = {
         return res.render (path.resolve ('./views/productEdit'))
     },
     index: function (req, res) {
-        return res.render (path.resolve ('./views/productIndex'))
+        return res.render  ('../views/productIndex', {products})
         
     }
     

@@ -1,92 +1,92 @@
 [
    {
         "id": 1,
-        "nombre_item": "CUSHIONS NATURAL - FRINGES",
-        "descripcion": "",
-        "imagen": "<img src='/images/CUSHIONS  NATURAL - FRINGES.jpg'>",
-        "categoria": "Cushions",
-        "color": "",
-        "precio": ""
+        "nombre_item": "WOOL RUG | LULE - RAYAS CRUDO & GRIS",
+        "descripcion": "Construcción: Tejido a mano con lana de oveja 100% argentina y teñido por pigmento natural por artesanos que viven en zonas remotas del noroeste argentino.Cuidado e instrucciones: Aspirarlos con cuidado y regularmente.",
+        "imagen": "/images/CUSHIONS  NATURAL - FRINGES.jpg",
+        "categoria": "Mantas",
+        "color": "Crudo y gris",
+        "precio": "$2.500"
     },
     {
         "id": 2,
         "nombre_item": "LLAMA CARDADA THROW PONCHO - CRUDO",
         "descripcion": "",
-        "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - CRUDO.jpg'>",
+        "imagen": "/images/LLAMA CARDADA THROW  PONCHO - CRUDO.jpg",
         "categoria": "Ponchos",
-        "color": "",
-        "precio": ""
+        "color": "Crudo",
+        "precio": "$2.500"
     },
     {
         "id": 3,
         "nombre_item": "LLAMA CARDADA THROW PONCHO - NATURAL",
         "descripcion": "",
-        "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - NATURAL.jpg'>",
+        "imagen": "/images/LLAMA THROW  PONCHO - NATURAL.jpg",
         "categoria": "Ponchos",
-        "color": "",
-        "precio": ""
+        "color": "Natural",
+        "precio": "$2.500"
     },
     {
         "id": 4,
         "nombre_item": "LLAMA CARDADA THROW PONCHO - TIERRA",
         "descripcion": "",
-        "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - TIERRA.jpg'>",
+        "imagen": "/images/LLAMA THROW  PONCHO - TIERRA.jpg",
         "categoria": "Ponchos",
-        "color": "",
-        "precio": ""
+        "color": "Tierra",
+        "precio": "$2.500"
     },
     {
         "id": 5,
         "nombre_item": "LLAMA CARDADA THROW PONCHO - CRUDO & GRIS",
         "descripcion": "",
-        "imagen": "<img src='/images/LLAMA CARDADA THROW PONCHO - CRUDO & GRIS.jpg'>",
+        "imagen": "/images/LLAMA THROW PONCHO - CRUDO & GRIS.jpg",
         "categoria": "Ponchos",
-        "color": "",
-        "precio": ""
+        "color": "Crudo y gris",
+        "precio": "$2.500"
     },
     {
         "id": 6,
-        "nombre_item": "Manta",
+        "nombre_item": "WOOL RUG  DIAGUITA",
         "descripcion": "",
-        "imagen": "<img src='/images/manta 2.jpg'>",
+        "imagen": "/images/WOOL RUG  DIAGUITA.jpg",
         "categoria": "Mantas",
-        "color": "",
-        "precio": ""
+        "color": "Diaguita",
+        "precio": "$2.500"
     },
     {
         "id": 7,
-        "nombre_item": "Manta",
+        "nombre_item": "WOOL RUG  LULE - PIEDRA",
         "descripcion": "",
-        "imagen": "<img src='/images/manta 3.jpg'>",
+        "imagen": "/images/WOOL RUG  LULE - PIEDRA.jpg",
         "categoria": "Mantas",
-        "color": "",
-        "precio": ""
+        "color": "Piedra",
+        "precio": "$2.500"
     },
     {
         "id": 8,
-        "nombre_item": "Manta",
+        "nombre_item": "WOOL RUG  LULE - RAYAS CRUDO & GRIS",
         "descripcion": "",
-        "imagen": "<img src='/images/manta 4.jpg'>",
+        "imagen": "/images/WOOL RUG  LULE - RAYAS CRUDO & GRIS.jpg",
         "categoria": "Mantas",
-        "color": "",
-        "precio": ""
+        "color": "Crudo y gris",
+        "precio": "$2.500"
     },
     {
         "id": 9,
-        "nombre_item": "Manta",
+        "nombre_item": "WOOL RUG DIAGUITA",
         "descripcion": "",
-        "imagen": "<img src='/images/manta 5.jpg'>",
+        "imagen": "/images/WOOL RUG DIAGUITA - PIEDRA.jpg",
         "categoria": "Mantas",
-        "color": "",
-        "precio": ""
+        "color": "Piedra",
+        "precio": "$2.500"
     },
     {
         "id": 10,
         "nombre_item": "Manta OMBU",
         "descripcion": "",
-        "imagen": "<img src='/images/OVERSIZED THROW - OMBU.jpg'>",
+        "imagen": "/images/OVERSIZED THROW - OMBU.jpg",
         "categoria": "Mantas",
-        "color": "",
-        "precio": ""
+        "color": "Ombu",
+        "precio": "$2.500"
     }
 ]

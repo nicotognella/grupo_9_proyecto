@@ -16,80 +16,41 @@
 <div class="relacionados">
     <h2>Productos </h2>
 </div> 
+<!-- forEach va a recorrer la array de la base de datos products.json y me va a devolver todos los elementos encontrados-->
+<% products.forEach(element => { %>
 <br>
-
+<a href="/products/detail/<%= element.id%>" method="GET"></a>
     <div class="producto">
-        <h1>WOOL RUG | LULE - RAYAS CRUDO & GRIS</h1>
+        <h1><%= element.nombre_item%></h1>
     </div>
     
     
     <div class="precio">
-        <h1>$2500</h1>
+        <h1><%= element.precio%></h1>
     </div> 
     
     <div class="articulo-principal">
 
-    <form action="registro.html" method="POST">
-      
-      <input type="image" src="/images/manta 2.jpg" alt="">
-      <input type="image" src="/images/manta 3.jpg" alt="">
-      <input type="image" src="/images/manta 4.jpg" alt="">
-      <input type="image" src="/images/manta 5.jpg" alt="">
-    </form>
+    
+    <div class="imgproduct"> <img src="<%= element.imagen%>" width="500px" alt="img product"></div>
+    </div>>
+    
 
 </div>
 
 <div class="descripcion">
     
     <p>
-        Medidas: 170 x 250 cm. 
+        Categoria: <%= element.categoria%>
         <br>
-        Construcción: Tejido a mano con lana de oveja 100% argentina y teñido por pigmento natural por artesanos que viven en zonas remotas del noroeste argentino.<br>
-        Cuidado e instrucciones: Aspirarlos con cuidado y regularmente.
+        Color: <%= element.color%> 
+        <br>
+        <%= element.descripcion%>
     </p>
 </div>
 
-<div class="producto">
-    <h1>LLAMA CARDADA THROW  PONCHO - CRUDO</h1>
-</div>
-<div class="precio">  <h1>$2000</h1> </div> 
-<div class="articulo-principal">
-<form action="registro.html" method="POST">
-    <input type="image" src="/images/LLAMA CARDADA THROW  PONCHO - CRUDO.jpg" alt="" width="250px" height="200">
-</form>
-</div>
-<div class="descripcion">
-<p>  Medidas: 170 x 250 cm.   <br>  descripcion  </p>
-</div>
-
-<div class="producto">
-    <h1>CUSHIONS  NATURAL - FRINGES</h1>
-</div>
-<div class="precio">  <h1>$3000</h1> </div> 
-<div class="articulo-principal">
-<form action="registro.html" method="POST">
-    <input type="image" src="/images/CUSHIONS  NATURAL - FRINGES.jpg" alt="" width="250px" height="200">
-</form>
-</div>
-<div class="descripcion">
-<p>  Medidas: 100 x 200 cm.   <br>  descripcion  </p>
-</div>
-
-<div class="producto">
-    <h1>WOOL RUG  LULE - PIEDRA</h1>
-</div>
-<div class="precio">  <h1>$2000</h1> </div> 
-<div class="articulo-principal">
-<form action="registro.html" method="POST">
-    <input type="image" src="/images/WOOL RUG  LULE - PIEDRA.jpg" alt="" width="250px" height="200">
-</form>
-</div>
-<div class="descripcion">
-<p>  Medidas: 170 x 250 cm.   <br>  descripcion  </p>
-</div>
-
-
-
+<!--cierro el forEach-->
+<% }) %>
 <div class="relacionados">
         <h2>Productos que podrian interesarte</h2>
     </div> 
