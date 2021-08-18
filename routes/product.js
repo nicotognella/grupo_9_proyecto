@@ -12,22 +12,24 @@ const productsController = require ('../controllers/productsController')
 
 router.get ('/',productsController.index)
 
+//Detalle producto
+
+router.get ('/detail/:id',productsController.detail)
+
 //Editar
 
-router.get ('/edit/:id',productsController.editar)
+router.get ('/edit/:id',productsController.edit)
 //router.put ('/edit/:id',productsController.editar)
 
 //Carrito de compras
 
-router.get ('/cart',productsController.carrito)
+router.get ('/cart',productsController.cart)
 
 //Crear producto
 
-router.get ('/create',productsController.crear)
+router.get ('/create',productsController.create)
 
-//Detalle producto
 
-router.get ('/detail/:id',productsController.detalle)
 
 
 

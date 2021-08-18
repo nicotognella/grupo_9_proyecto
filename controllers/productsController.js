@@ -10,14 +10,14 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 
 let productsController = {
-    detalle: function (req, res) {
+    detail: function (req, res) {
         return res.render (path.resolve ('./views/productDetail'))
     },
-    carrito: function (req, res) {
+    cart: function (req, res) {
         return res.render (path.resolve ('./views/productCart')
 )
     },
-    crear: function (req, res) {
+    create: function (req, res) {
         return res.render (path.resolve('./views/productCreate'))
     },
 
@@ -25,7 +25,7 @@ let productsController = {
     // el metodo find recibe un callback que va a funcionar sobre cada elemento de la array
     // la condicion que le doy al callback es que el element (es el nombre que le asigno a la interacion o repeticion de la array), primero va con el elemento con id 1 dps 2 etc
     
-    editar: function (req, res) {
+    edit: function (req, res) {
         let productEditar = products.find(element => element.id == req.params.id)
         return res.render  ('../views/productEdit', {productEditar})
     },
