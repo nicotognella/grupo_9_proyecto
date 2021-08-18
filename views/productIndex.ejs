@@ -20,6 +20,7 @@
 <% products.forEach(element => { %>
 <br>
     <div class="producto">
+        <a href="/products/detail/<%= element.id%>" method="GET"></a>
         <h1><%= element.nombre_item%></h1>
     </div>
     

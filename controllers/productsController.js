@@ -10,13 +10,27 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 
 let productsController = {
-    detail: function (req, res) {
-        return res.render (path.resolve ('./views/productDetail'))
+
+    
+    index: function (req, res) {
+        return res.render  ('../views/productIndex', {products})
+        
     },
+
+    detail: function (req, res) {
+
+        const product = products.find( elem => elem.id == req.params.id);
+
+        return res.render ('../views/productDetail', {product})
+    },
+
+
     cart: function (req, res) {
         return res.render (path.resolve ('./views/productCart')
 )
     },
+
+
     create: function (req, res) {
         return res.render (path.resolve('./views/productCreate'))
     },
@@ -33,10 +47,6 @@ let productsController = {
 
 
 
-    index: function (req, res) {
-        return res.render  ('../views/productIndex', {products})
-        
-    }
     
 };
 

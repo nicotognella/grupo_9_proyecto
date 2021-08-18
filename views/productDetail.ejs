@@ -14,22 +14,20 @@
 <!-- /header -->
     
     <div class="producto">
-        <h1>WOOL RUG | LULE - RAYAS CRUDO & GRIS</h1>
+        <h1><%= product.nombre_item%></h1>
     </div>
     
     
     <div class="precio">
-        <h1>$2500</h1>
+        <h1>$<%= product.precio%></h1>
     </div> 
     
     <div class="articulo-principal">
 
     <form action="registro.html" method="POST">
       
-      <input type="image" src="/images/manta 2.jpg" alt="">
-      <input type="image" src="/images/manta 3.jpg" alt="">
-      <input type="image" src="/images/manta 4.jpg" alt="">
-      <input type="image" src="/images/manta 5.jpg" alt="">
+      <input type="image" src="<%= product.imagen%>" width="500px" alt="">
+
     </form>
 
 </div>
@@ -37,10 +35,9 @@
 <div class="descripcion">
     
     <p>
-        Medidas: 170 x 250 cm. 
+        Color: <%= product.color%> 
         <br>
-        Construcción: Tejido a mano con lana de oveja 100% argentina y teñido por pigmento natural por artesanos que viven en zonas remotas del noroeste argentino.<br>
-        Cuidado e instrucciones: Aspirarlos con cuidado y regularmente.
+        <%= product.descripcion%>
     </p>
 </div>
 
