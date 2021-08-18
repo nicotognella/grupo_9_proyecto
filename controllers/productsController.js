@@ -2,26 +2,30 @@ const e = require('express');
 const fs = require('fs');
 const path = require('path');
 
+// creo dos constantes, productsFilePath crea el camino hacia la carpeta data el archivo de products.json
+// la segunda constante products utiliza el Json.parse para analizar el archivo json y construir un valor js que podamos renderizar
+// readFileSync va a leer el contenido del path anterior y va a parar las otras actividades de node hasta que se devuelva lo que leyo del json
+const productsFilePath = path.join(__dirname, '../data/products.json');
+const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+
+
 let productsController = {
     detalle: function (req, res) {
-        const rutaVistaDetail = path.resolve ('./views/productDetail')
-       return res.render (rutaVistaDetail)
+        return res.render (path.resolve ('./views/productDetail'))
     },
     carrito: function (req, res) {
-        const rutaVistaCart = path.resolve ('./views/productCart')
-        res.render (rutaVistaCart)
+        return res.render (path.resolve ('./views/productCart')
+)
     },
     crear: function (req, res) {
-        const rutaVistaCreate = path.resolve ('./views/productCreate')
-        res.render (rutaVistaCreate)
+        return res.render (path.resolve('./views/productCreate'))
     },
     editar: function (req, res) {
-        const rutaVistaEdit = path.resolve ('./views/productEdit')
-        res.render (rutaVistaEdit)
+        return res.render (path.resolve ('./views/productEdit'))
     },
     index: function (req, res) {
-        const rutaVistaIndex = path.resolve ('./views/productIndex')
-        res.render (rutaVistaIndex)
+        return res.render (path.resolve ('./views/productIndex'))
+        
     }
     
 };
