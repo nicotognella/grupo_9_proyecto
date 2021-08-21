@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const methodOverride = require('method-override');
 
 var homeRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -21,6 +22,12 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, './public')));
 const publicPath = path.resolve(__dirname, './public');
 app.use( express.static(publicPath) );
+
+/****************** METHOD OVERRIDE *************************/
+app.use(methodOverride('_method'));
+
+/****************** RUTAS *************************/
+
 
 app.use('/', homeRouter);
 app.use('/home', homeRouter);

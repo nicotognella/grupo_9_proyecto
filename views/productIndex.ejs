@@ -4,72 +4,74 @@
 <head>
     <!-- Include Head -->
     <%- include('partials/head', {title: 'Inicio'}) %>
-    <link rel="stylesheet" href="./css/styleDetalleProducto.css">
-    <title> product Index</title>
+        <link rel="stylesheet" href="./css/styleDetalleProducto.css">
+        <title> product Index</title>
 </head>
 
 <body>
     <!-- header -->
-<%- include('partials/header') %>
-<!-- /header -->
-    
-<div class="relacionados">
-    <h2>Productos </h2>
-</div> 
-<!-- forEach va a recorrer la array de la base de datos products.json y me va a devolver todos los elementos encontrados-->
-<% products.forEach(element => { %>
-<br>
-    <div class="producto">
-        <a href="/products/detail/<%= element.id%>" method="GET"></a>
-        <h1><%= element.nombre_item%></h1>
-    </div>
-    
-    
-    <div class="precio">
-        <h1>$<%= element.precio%></h1>
-    </div> 
-    
-    <div class="articulo-principal">
+    <%- include('partials/header') %>
+        <!-- /header -->
 
-    
-    <div class="imgproduct"> <img src="<%= element.imagen%>" width="500px" alt="img product"></div>
-    </div>>
-    
+        <div class="relacionados">
+            <h2>Productos </h2>
+        </div>
+        <!-- forEach va a recorrer la array de la base de datos products.json y me va a devolver todos los elementos encontrados-->
+        <% products.forEach(element => { %>
+            <br>
+            <div class="producto">
+                <a class="producto" href="/product/<%= element.id%>" method="GET">
+                    <h1>
+                        <%= element.nombre_item%>
+                    </h1>
+                    <div class="articulo-principal">
 
-</div>
+                        <div class="imgproduct"> <img src="<%= element.imagen%>" width="500px" alt="img product"></div>
+                    </div>
 
-<div class="descripcion">
-    
-    <p>
-        Categoria: <%= element.categoria%>
-        <br>
-        Color: <%= element.color%> 
-        <br>
-        <%= element.descripcion%>
-    </p>
-</div>
+                </a>
+                <div class="precio">
+                    <h1>$
+                        <%= element.precio%>
+                    </h1>
+                </div>
 
-<!--cierro el forEach-->
-<% }) %>
-<div class="relacionados">
-        <h2>Productos que podrian interesarte</h2>
-    </div> 
 
-    <div class="articulos-abajo">
 
-    <form action="registro.html" method="POST">
-      
-        <input type="image" src="/images/LLAMA CARDADA THROW  PONCHO - CRUDO.jpg" alt="" width="250px" height="200">
-        <input type="image" src="/images/LLAMA THROW  PONCHO - NATURAL.jpg" alt="" width="250px" height="200">
-        <input type="image" src="/images/WOOL RUG  DIAGUITA.jpg" alt="" width="250px" height="200">
-        <input type="image" src="/images/WOOL RUG  LULE - RAYAS CRUDO & GRIS.jpg" alt="" width="250px" height="200">
-      </form>
+                <div class="descripcion">
+                    <p>
+                        Categoria:
+                        <%= element.categoria%>
+                            <br> Color:
+                            <%= element.color%>
+                                <br>
+                                <%= element.descripcion%>
+                    </p>
+                </div>
 
-    </div>
+            </div>
 
-    <!-- footer -->
-	<%- include('partials/footer') %>
-	<!-- /footer -->
+            <!--cierro el forEach-->
+            <% }) %>
+                <div class="relacionados">
+                    <h2>Productos que podrian interesarte</h2>
+                </div>
+
+                <div class="articulos-abajo">
+
+                    <form action="registro.html" method="POST">
+
+                        <input type="image" src="/images/LLAMA CARDADA THROW  PONCHO - CRUDO.jpg" alt="" width="250px" height="200">
+                        <input type="image" src="/images/LLAMA THROW  PONCHO - NATURAL.jpg" alt="" width="250px" height="200">
+                        <input type="image" src="/images/WOOL RUG  DIAGUITA.jpg" alt="" width="250px" height="200">
+                        <input type="image" src="/images/WOOL RUG  LULE - RAYAS CRUDO & GRIS.jpg" alt="" width="250px" height="200">
+                    </form>
+
+                </div>
+
+                <!-- footer -->
+                <%- include('partials/footer') %>
+                    <!-- /footer -->
 
 </body>
 

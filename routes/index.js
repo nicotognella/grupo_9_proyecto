@@ -17,4 +17,8 @@ router.get ('/login',indexController.login)
 //Registro
 router.get ('/registro',indexController.registro)
 
+//Carro de productos
+
+router.get ('/cart',indexController.cart)
+
 module.exports = router;

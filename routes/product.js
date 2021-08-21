@@ -14,20 +14,25 @@ router.get ('/',productsController.index)
 
 //Detalle producto
 
-router.get ('/detail/:id',productsController.detail)
+router.get ('/:id',productsController.detail)
+
+//Crear producto
+// primero tengo una peticion GET para mostrar el formulario
+// y despues una peticion POST para enviar los datos nuevos
+router.get ('/create',productsController.create)
+router.post ('/',productsController.store)
 
 //Editar
 
-router.get ('/edit/:id',productsController.edit)
-//router.put ('/edit/:id',productsController.editar)
+router.get ('/:id/edit',productsController.edit)
+router.put ('/:id',productsController.update)
 
-//Carrito de compras
 
-router.get ('/cart',productsController.cart)
+router.delete ('/:id', productsController.delete)
 
-//Crear producto
 
-router.get ('/create',productsController.create)
+
+
 
 
 

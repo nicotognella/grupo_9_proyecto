@@ -14,6 +14,9 @@ module.exports = indexController = {
     registro: function(req, res) {
         const rutaVistaRegistro = path.resolve ('./views/registro')
         res.render(rutaVistaRegistro)
-    } 
+    },
+    cart: function (req, res) {
+        return res.render (path.resolve ('./views/productCart'))
+    },
 }
 
