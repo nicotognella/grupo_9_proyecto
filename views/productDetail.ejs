@@ -4,71 +4,73 @@
 <head>
     <!-- Include Head -->
     <%- include('partials/head', {title: 'Inicio'}) %>
-    <link rel="stylesheet" href="../../css/styleDetalleProducto.css">
-    <title> productDetail</title>
+        <link rel="stylesheet" href="../../css/styleDetalleProducto.css">
+        <title> productDetail</title>
 </head>
 
 <body>
     <!-- header -->
-<%- include('partials/header') %>
-<!-- /header -->
-    
-    <div class="producto">
-        <h1><%= product.nombre_item%></h1>
-    </div>
-    
-    
-    <div class="precio">
-        <h1>$<%= product.precio%></h1>
-    </div> 
+    <%- include('partials/header') %>
+        <!-- /header -->
 
-    <div class="articulo-principal">
+        <div class="producto">
+            <h1>
+                <%= product.nombre_item%>
+            </h1>
+        </div>
 
-    <form action="registro.html" method="POST">
-      
-      <input type="image" src="<%= product.imagen%>" width="500px" alt="">
 
-    </form>
+        <div class="precio">
+            <h1>$
+                <%= product.precio%>
+            </h1>
+        </div>
 
-</div>
+        <div class="articulo-principal">
 
-<div class="descripcion">
-    
-    <p>
-        Color: <%= product.color%> 
-        <br>
-        <%= product.descripcion%>
-    </p>
-</div>
+            <input type="image" src="<%= product.imagen%>" width="500px" alt="">
 
-<div class="comprar">
 
-    <form action="registro.html" method="POST">
-      
-      <input type="button" value="agregar al carrito" style=background-color:lightblue>
-     
-    </form>
+        </div>
 
-</div>
-    <div class="relacionados">
-        <h2>Productos que podrian interesarte</h2>
-    </div> 
+        <div class="descripcion">
 
-    <div class="articulos-abajo">
+            <p>
+                Color:
+                <%= product.color%>
+                    <br>
+                    <%= product.descripcion%>
+            </p>
+        </div>
 
-    <form action="registro.html" method="POST">
-      
-        <input type="image" src="/images/LLAMA CARDADA THROW  PONCHO - CRUDO.jpg" alt="" width="250px" height="200">
-        <input type="image" src="/images/LLAMA THROW  PONCHO - NATURAL.jpg" alt="" width="250px" height="200">
-        <input type="image" src="/images/WOOL RUG  DIAGUITA.jpg" alt="" width="250px" height="200">
-        <input type="image" src="/images/WOOL RUG  LULE - RAYAS CRUDO & GRIS.jpg" alt="" width="250px" height="200">
-      </form>
+        <div class="comprar">
 
-    </div>
+            <form action="registro.html" method="POST">
 
-    <!-- footer -->
-	<%- include('partials/footer') %>
-	<!-- /footer -->
+                <input type="button" value="agregar al carrito" style=background-color:lightblue>
+
+            </form>
+
+        </div>
+        <div class="relacionados">
+            <h2>Productos que podrian interesarte</h2>
+        </div>
+
+        <div class="articulos-abajo">
+
+            <form action="registro.html" method="POST">
+
+                <input type="image" src="/images/LLAMA CARDADA THROW  PONCHO - CRUDO.jpg" alt="" width="250px" height="200">
+                <input type="image" src="/images/LLAMA THROW  PONCHO - NATURAL.jpg" alt="" width="250px" height="200">
+                <input type="image" src="/images/WOOL RUG  DIAGUITA.jpg" alt="" width="250px" height="200">
+                <input type="image" src="/images/WOOL RUG  LULE - RAYAS CRUDO & GRIS.jpg" alt="" width="250px" height="200">
+            </form>
+
+        </div>
+
+        <!-- footer -->
+        <%- include('partials/footer') %>
+            <!-- /footer -->
 
 </body>
 
