@@ -48,11 +48,17 @@ header {
   padding-right: 1500px;
 }
 
+.h1 {
+  color: #222222;
+  font-style: normal;
+
+}
+
 .producto{
   position: relative;
   text-align: center;
   text-align-last: center;
-  color: #222222;
+  
 }
 
 .articulos-abajo{

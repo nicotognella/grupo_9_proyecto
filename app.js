@@ -28,9 +28,9 @@ app.use(express.static(publicPath));
 /****************** METHOD OVERRIDE *************************/
 app.use(methodOverride('_method'));
 
-/****************** RUTAS *************************/
+/****************** RUTAS (definimos las rutas bases)*************************/
 
-
+// estos app.use especifican q todo lo que este dentro de xRouter va a tomar como vase la ruta del primer parametro
 app.use('/', homeRouter);
 app.use('/home', homeRouter);
 app.use('/users', usersRouter);

@@ -1,12 +1,10 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
 
 // importo el controlador y lo vinculo a una ruta
 const productsController = require ('../controllers/productsController')
 
-//a la ruta base '/' la vinculo con el indexController y dentro de este el metodo index
 
 //configuracion almacenamiento multer
 // defino multer para subir imagenes y archivos
@@ -37,24 +35,20 @@ router.get ('/',productsController.index)
 // primero tengo una peticion GET para mostrar el formulario
 // y despues una peticion POST para enviar los datos nuevos
 router.get ('/create',productsController.create)
-router.post ('/create',upload.single ('image'), productsController.store)
+router.post ('/',upload.single ('image'), productsController.store)
 
 //Editar
 
 router.get ('/:id/edit',productsController.edit)
-router.put ('/:id',productsController.update)
+router.put ('/:id', upload.single ('image'),productsController.update)
 
 //Detalle producto
 
 router.get ('/:id',productsController.detail)
 
+//Eliminar
+
 router.delete ('/:id', productsController.delete)
-
-
-
-
-
-
 
 
 

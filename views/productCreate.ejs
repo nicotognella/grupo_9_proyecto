@@ -9,37 +9,34 @@
 <!-- /header -->
     <main>
         <div class="card-create-prod">   
-            <form action="/product/create" method="POST" enctype="multipart/form-data">  
+            <!--le doy al form, dentro del cual va a estar todo el formulario, la ruta que debe seguir para saber que hacer, esto en  controller-->
+            <form action="/products" method="POST" enctype="multipart/form-data">  
                 <div class="msg-create-prod">
                     <h4>Formulario de creacion de Productos</h4>
                 </div>
                     <div class="container-create-prod">
                             <label for="title">Nombre del producto</label>
-                            <input type="text" name="title" placeholder="Ingresar nombre" required>
-                            <br>
-                            <label for="medidas">Medidas</Mabel>
-                            <input type="number" name="medidas" placeholder="Largo" required> x <input type="number" name="medidas" placeholder="Ancho" required> cm
-
-                            <br>
-                            
+                            <input type="text" name="nombre_item" placeholder="Ingresar nombre" required>
+                            <br>                            
                             <label for="descripcion">Descripcion</label>
                             <textarea type= "text" name="descripcion" placeholder="Escribir descripcion" required></textarea>
                             <br>
+                            <!--el valor que le doy a la imagen cargada en el id del input, es el nombre que debo usar en el middleware dentro de la ruta que llama el multer-->
+                            <label for="image">Imagen</label>
+                            <br>
+                            <input type="file" id="image" name="image" accept=".jpg, .png">
+                            <br>
                             <label for="title">Categoria</label>
-                            <select name="gender">
+                            <select name="categoria">
                                 <option value="" selected disabled hidden>Elegir...</option>
                                 <option value="cushions">Cushions</option>
                                 <option value="poncho">Poncho</option>
                                 <option value="mantas">Mantas</option>
                             </select>
                             <br>
-                            <label for="image">Imagen</label>
-                            <br>
-                            <input type="file" id="image" name="image" accept=".jpg, .png">
-                            <br>
                             <label for="category">Color</label>
                             <br>
-                            <select name="gender">
+                            <select name="color">
                                 <option value="" selected disabled hidden>Elegir...</option>
                                 <option value="natural">Natural</option>
                                 <option value="crudo">Crudo</option>
@@ -50,9 +47,9 @@
                             </select>
                             <br>
                             <br>
-                            <label for="price">Precio</label>
+                            <label for="precio">Precio</label>
                             <br>
-                            <input name="price" type="number" min="0.00" max="10000.00" step="0.01" required>
+                            <input name="precio" type="number" min="0.00" max="10000.00" step="0.01" required>
                             <br>
                             <br>
                             
