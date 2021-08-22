@@ -12,7 +12,7 @@ const productsController = require ('../controllers/productsController')
 // defino multer para subir imagenes y archivos
 // primero lo almaceno en una constantes y despues creo una segunda constante donde va a estar el destino 
 //al que va a enviar multer los archivos
-//en la constante storage, defino el destino y el nombre que se le va a dar al archivo
+//en la constante storage, uso diskStorage para definir el destino y el nombre que se le va a dar al archivo
 const multer = require('multer')
 
 const storage = multer.diskStorage({
@@ -20,7 +20,10 @@ const storage = multer.diskStorage({
         cb(null, './public/uploads')
     },
     filename: function (req, file, cb) {
-        cb(null, file.originalname + "-" + Date.now() + '.jpg')      
+        cb(null, file.originalname + "-" + Date.now() + '.jpg')    
+        /*otra forma de escribirlo
+        cb(null, `${file.originalname}-${Date.now ()}.jpg`)*/
+
     }
 })
 const upload = multer({storage})

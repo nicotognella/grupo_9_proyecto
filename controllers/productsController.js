@@ -35,7 +35,7 @@ let productsController = {
     },
 
     store: function(req, res) {
-        return res.send(req.file.filename)
+        return res.send(req.file)
 
     },
 
